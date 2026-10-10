@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JapanStockAI-Backup — 個人用バックアップアプリ</title>
+<style>body{font-family:system-ui,-apple-system,sans-serif;max-width:760px;margin:3rem auto;padding:0 1.2rem;line-height:1.8}header{border-bottom:1px solid #888}a{color:#2764b9}footer{margin-top:3rem;border-top:1px solid #888;padding-top:1rem;color:#777}</style>
+</head>
+<body>
+<header><h1>JapanStockAI-Backup</h1><p>個人用Google Driveバックアップ認証アプリ / Personal backup authorization app</p></header>
+<main>
+<h2>目的 / Purpose</h2>
+<p>このアプリは、所有者の研究プロジェクトに関するファイルを、本人のGoogle Driveに保存し、復元・整合性確認するための個人用バックアップ認証アプリです。rcloneと組み合わせて利用します。</p>
+<p>This private-use OAuth application authorizes rclone to back up and restore the owner's research project files in the owner's own Google Drive.</p>
+<h2>Google Driveの権限 / Drive permissions</h2>
+<p>要求する権限は <code>https://www.googleapis.com/auth/drive.file</code> です。アプリが作成したファイル、または所有者が明示的に許可したファイルのみを扱います。Drive全体への包括的なアクセスは要求しません。</p>
+<p>Only the <code>drive.file</code> scope is requested; unrelated personal Drive files are not in scope.</p>
+<h2>関連文書 / Policies</h2>
+<p><a href="/privacy.html">プライバシーポリシー / Privacy Policy</a> · <a href="/terms.html">利用条件 / Terms</a></p>
+</main>
+<footer>最終更新 / Last updated: 2026-10-10</footer>
+</body>
+</html>
